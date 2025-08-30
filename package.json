@@ -1,0 +1,25 @@
+{
+  "name": "solid",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/srp/shopping-cart.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosme-henrique/solid.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cosme-henrique/solid/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  },
+  "homepage": "https://github.com/cosme-henrique/solid#readme"
+}

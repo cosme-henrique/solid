@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // Compila para uma versão moderna do JS
+    "module": "NodeNext", // Usa o sistema de módulos mais recente do Node
+    "moduleResolution": "NodeNext",
+    "declaration": true, // MUITO IMPORTANTE: Gera os arquivos .d.ts
+    "outDir": "./dist", // Onde o código JavaScript compilado irá ficar
+    "rootDir": "./src", // Onde nosso código TypeScript de origem está
+    "esModuleInterop": true, // Ajuda na compatibilidade entre módulos
+    "forceConsistentCasingInFileNames": true,
+    "strict": true, // Habilita todas as regras estritas de tipo
+    "skipLibCheck": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "src"
+  ], // Quais pastas o TypeScript deve olhar
+  "exclude": [
+    "node_modules",
+    "dist"
+  ] // Quais pastas ele deve ignorar
+}
